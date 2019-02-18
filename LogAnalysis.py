@@ -76,7 +76,7 @@ def question2():
     # Show the results
     print("Question 2: Who are the most popular article authors of all time?")
     for row in rows:
-        print('"{0}" - {1} Views'.format(row[0], row[1]))
+        print('{0} - {1} Views'.format(row[0], row[1]))
 
 
 # 3. On which days did more than 1% of requests lead to errors?
